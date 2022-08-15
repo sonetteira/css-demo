@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color:blue;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+}
+
+#bullet-list {
+    background: rgb(109, 81, 21);
+    margin: auto;
+    padding: 20px;
+    width: 20%;
+}
+
+#bullet-list li {
+    background-color: rgb(192, 158, 84);
+    color:rgb(39, 27, 0);
+    list-style-type: square;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#roman-list {
+    list-style-type: upper-roman;
+}
+
+#my_name {
+    font-weight: bold;
+}
+
+.border_box {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 20px;
+}
+
+.borderdiv1 { 
+    border-width: 5px;
+    border-style: dotted;
+    border-color: darkred;
+}
+
+ .borderdiv2 { 
+    /* border shorthand: width, style, color */
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+
+.borderdiv3 {
+    border-right: 2px dashed blue;
+    border-top: 2px double red;
+    border-left: none;
+}
+
+.centered_text {
+    text-align: center; /* horizontal */
+    vertical-align: middle; /* vertical */
+    width: 100%;
+}
+
+.centered_block {
+    margin: auto;
+    width: 100%;
+}
+
+.margin_box {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.margin_section {
+    background-color: pink;
+}
+
+.margindiv1 { 
+    margin: 15px;
+}
+
+.margindiv2 {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.margindiv3 {
+    /* margin shorthand: top, right, bottom, left */
+    margin: 2px 3px 4px 5px;
+}
+
+.margindiv4{
+    /* margin shorthard: top, right/left, bottom */
+    margin: 2px 5px 13px;
+}
+
+.margindiv5 {
+    /*margin shorthand: top/bottom, right/left */
+    margin: 20px auto;
+}
+
+.paddingdiv {
+    background-color: white;
+    /* padding shorthand: top/bottom, right/left */ 
+    padding: 10% 25%;
+}
+
+.noboxsizediv {
+	background-color: white;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 300px;
+}
+
+.plaindiv {
+	background-color: white;
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.boxsizediv {
+	background-color: white;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 300px;
+}
